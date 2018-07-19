@@ -1,0 +1,2 @@
+create table product (product_id bigint not null auto_increment, base_price double precision, name varchar(255), primary key (product_id));
+create table store (store_id bigint not null auto_increment, name varchar(255), primary key (store_id));
